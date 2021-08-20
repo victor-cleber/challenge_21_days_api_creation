@@ -1,4 +1,4 @@
-# API em C# | Desafio 21 dias [DIA 02 - Instalação do ambiente]
+# API em C# | Desafio 21 dias [DIA 02 - Variaveis, condicionais e operadores logicos]
 
 #CRIANDO O PROJETO
 > mkdir console_desafio_21dias
