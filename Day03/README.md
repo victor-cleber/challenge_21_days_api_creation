@@ -1,15 +1,19 @@
-# challenge_21_days_api_creation
+# API em C# | Desafio 21 dias [DIA 02 - Loop, Array e Lista dinamica]
 
-CHALLENGE 21 DAYS OF C# API CREATION
+#### CRIAR O PROJETO
 
-criar estrutura git
+> mkdir console_desafio_21dias 
 
-aplicar TDD
+> cd console_desafio_21dias 
 
-criar classe Aluno.cs
+> dotnet new console 
 
-- Assistir  aula 06 funcoes e aula 19 propriedades
+> dotnet run
 
+
+#### CRIAR A CLASSE ALUNO
+```
+public class Aluno{
 #propriedades complexas
 private string _name;
 
@@ -21,58 +25,50 @@ set{
 this.set = _name;
 }
 
-se nao for tratar nd pode usar a propriedade padrao
-public string Name {get;set;}
-
-
-a nao ser q va tratar
-public string Name{
-get{
-return this._name.ToLower();
-}
-set{
-this.set = _name.ToUper;
-}
-
-
 public string Matriculca {get; set;}
 
 public List<double> Notas{get; set;}
-
-
-2 tipos de objetos 
-entidade ou ojeto com propriedade e metodo
-
-
-entidade e servico
-
-DDD e SOLID
-
-se tivesse metod para gravar no bd ou enviar email eu teria um servico para fazer isso aq
-
-public class Curso
-
-
-
-para corrigir oerro de null
-
-criar 
-
-private List<double> notas;
-public List<double> Notas{
-
-get{//return this.notas
-	if (this.notas == null){
-		this.notas = new List<double> (); 
-	}
-set{
-	this.notas = value
 }
+```
+Obs.: Se nao for tratar os atributos pode usar a propriedade padrao
+public string Name {get;set;}
 
+Mas se for tratar o atributo deve-se usar propriedades complexas
+```
+public string Name{
+get{
+	return this._name.ToLower();
+}
+set{
+	this.set = _name.ToUper;
+}
+```
+Obs. Existem dois tipos de objetos: entidade ou ojeto com propriedade e metodo 
+	
+O Servico e usado em caso da necessidade de um metodo para gravar no BD ou enviar email sera necessaio criar um servico responsavel por estas acoes
 
-fazer TDD
+Obs.: Correcao do erro null
+```
+//atributo
+private List<double> notas;
+//propriedade
+public List<double> Notas{
+	get{
+		if (this.notas == null){
+			this.notas = new List<double> (); 
+	}
+	set{
+		this.notas = value
+	}
+}
+```	
+#### CONCEITOS 
+- TDD
+- DDD, SOLID
+- CLASSES, PROPRIEDADES E METODOS
+- OO (heranca, polimorfismo, encapsulamento, e abstracao)
 
+#### ASSISTIR
+- aula 06 funcoes e aula 19 propriedades
 
-heranca
-polimorfismo
 
