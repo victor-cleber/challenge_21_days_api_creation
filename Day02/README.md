@@ -1,12 +1,12 @@
-# API em C# | Desafio 21 dias [DIA 02 - Variaveis, condicionais e operadores logicos]
+## API em C# | Desafio 21 dias [DIA 02 - Variaveis, condicionais e operadores logicos]
 
-#CRIANDO O PROJETO
+#### CRIANDO O PROJETO
 > mkdir console_desafio_21dias
 > cd console_desafio_21dias
 > dotnet new console
 > dotnet run
 
-#VARIAVEIS
+#### VARIAVEIS
 - criacao de variaveis e datatypes
 - C# e diferente de Sql Server que e diferente de MongoDB
   int num1 =1
@@ -42,7 +42,7 @@ outros tem global.asax
 
 
 
-#CONDICIONAIS
+#### CONDICIONAIS
 - Estruturas de decisao c# - condicionais
 
 - criar classes fora do namespace??
@@ -56,4 +56,4 @@ exercitar a mesma logica de valores com switch e if para comparar
 se tem varias opcoes usa switch case por causa de performance
 
 
-#OPERADORES LOGICOS
+#### OPERADORES LOGICOS
