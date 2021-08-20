@@ -1,12 +1,27 @@
-# challenge_21_days_api_creation
+# API em C# | Desafio 21 dias [DIA 02 - Instalação do ambiente]
+AMBIENTE
+- VsCode (https://code.visualstudio.com/)
+- .Net 5 (https://dotnet.microsoft.com/download/dotnet/5.0)
+> dotnet --version 
+- GIT - (https://git-scm.com/downloads)
+> git --version
+- Docker (https://docs.docker.com/get-docker/)
+> sudo apt install docker.io
+- Azure Data Studio (https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15)
+- SGBD 
+- > Sql Management Studio no Windows | Azure Data Studio ou  DBViewer no Linux
+- > SQL Server atraves do docker
+> sudo docker pull mcr.microsoft.com/mssql/server:2019-latest
 
-CHALLENGE 21 DAYS OF C# API CREATION
 
+
+#CRIANDO O PROJETO
 > mkdir console_desafio_21dias
 > cd console_desafio_21dias
 > dotnet new console
 > dotnet run
 
+#VARIAVEIS
 - criacao de variaveis e datatypes
 - C# e diferente de Sql Server que e diferente de MongoDB
   int num1 =1
@@ -17,7 +32,6 @@ CHALLENGE 21 DAYS OF C# API CREATION
   var int1 = 3;
 
 - pesquisar sobre datatype e datatype c# para entender
-
 Console.WriteLine()
 Console.Readline()
 
@@ -41,6 +55,9 @@ metodo public static void main e o metodo principal q em qq program dot.net 5
 
 outros tem global.asax
 
+
+
+#CONDICIONAIS
 - Estruturas de decisao c# - condicionais
 
 - criar classes fora do namespace??
@@ -53,10 +70,5 @@ outros tem global.asax
 exercitar a mesma logica de valores com switch e if para comparar
 se tem varias opcoes usa switch case por causa de performance
 
-variaveis operacodres logicos
 
-amanha looping array objeto dinamico
-
-classes, funcoes propriedades
-
-depois parte web
+#OPERADORES LOGICOS
