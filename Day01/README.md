@@ -1,7 +1,7 @@
-# challenge_21_days_api_creation
-CHALLENGE 21 DAYS OF C# API CREATION
+# API em C# | Desafio 21 dias
+DIA 01 - Instalacao do ambiente 
 
-#AMBIENTE
+AMBIENTE
 - .Net 5 (combinacao de Full Framework + dot net core)
 > powershell:  dotnet --version 
 - VsCode
