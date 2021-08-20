@@ -20,26 +20,28 @@
 Console.WriteLine()
 Console.Readline()
 
+- Formas de converter um valor
 Convert.ToInt32(variavel)
 (int) variavel
 Int.Parse(string)
 
+- Importando bibliotecas em diferentes linguagens
 using C#
+
 import java
+
 required typescript
 
-- namespace C#
-  pacakge Java
-  Javascript objeto literal {
+- Namespaces in diferentes linguagens
+namespace C#
+
+pacakge Java
+
+Javascript objeto literal {
   item: function()
   }
 
 - Orientacao a objetos C#
-
-metodo public static void main e o metodo principal q em qq program dot.net 5
-
-outros tem global.asax
-
 
 
 #### CONDICIONAIS
