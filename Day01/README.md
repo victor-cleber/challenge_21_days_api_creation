@@ -1,4 +1,3 @@
-=======
 # API em C# | Desafio 21 dias [DIA 01 - Instalação do ambiente]
 AMBIENTE
 - VsCode (https://code.visualstudio.com/)
