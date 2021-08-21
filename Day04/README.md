@@ -1,4 +1,3 @@
-=======
 # API em C# | Desafio 21 dias [DIA 04 - Orientação a objetos]
 #### CRIANDO O PROJETO
 > cd  console_desafio_21dias

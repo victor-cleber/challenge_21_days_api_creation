@@ -5,7 +5,6 @@ AMBIENTE
 - .Net 5 (https://dotnet.microsoft.com/download/dotnet/5.0)
 > dotnet --version 
 - GIT - (https://git-scm.com/downloads)
->>>>>>> 8a87be2c4fe4bf05469b2ab05eba62a236a17e31
 > git --version
 - Docker (https://docs.docker.com/get-docker/)
 > sudo apt install docker.io
